@@ -1,5 +1,3 @@
-import pathlib
-
 with open("sample.txt", "wt") as fh:
     fh.write("This is simple file\n")
     fh.write("it contains multipal lines")

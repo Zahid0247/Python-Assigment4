@@ -1,6 +1,4 @@
-with open("sample.txt", "wt") as fh:
-    fh.write("This is simple file\n")
-    fh.write("it contains multipal lines")
+
 
 try:
     with open("Sample.txt", "rt") as fh:
@@ -12,3 +10,7 @@ try:
 
 except FileNotFoundError:
     print(f"file Sample.txt was not found")
+
+with open("sample.txt", "wt") as fh:
+    fh.write("This is simple file\n")
+    fh.write("it contains multipal lines")
